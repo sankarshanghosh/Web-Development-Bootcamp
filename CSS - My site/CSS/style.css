@@ -9,21 +9,18 @@ h1 {
 }
 
 .top-container {
-  background-color: antiquewhite;
+  background-color: #EEEEEE;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  background-color: #FFF1DC;
 }
 
-.bottom-container {
+.middle-container img {
   width: 200px;
-  height: 200px;
-  background-color: turquoise;
+  border-radius: 100px;
 }
 
 .top-cloud {
@@ -38,10 +35,34 @@ h1 {
   bottom: 300px;
 }
 
+.first {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.image2 {
+  width: 25%;
+}
+
 .tagline {
   margin-top: 0;
 }
 
 .myName {
   margin-bottom: 5px;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
